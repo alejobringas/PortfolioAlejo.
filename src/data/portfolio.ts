@@ -106,6 +106,39 @@ export const projects: Project[] = [
     image: '/assets/projects/stetica-lookbook.png',
     imagePosition: 'center',
   },
+  {
+    number: '08',
+    name: 'ARCH AI',
+    category: 'ASISTENTE LOCAL · PROTOTIPO',
+    description:
+      'Desarrollé un asistente para Windows con modelos locales, documentos y voz. Prototipo de escritorio con recursos locales.',
+    tags: ['Electron / React', 'Ollama', 'SQLite'],
+    liveUrl: 'https://github.com/alejobringas/arch-ai',
+    image: '/assets/projects/arch-ai.png',
+    imagePosition: 'center',
+  },
+  {
+    number: '09',
+    name: 'ARCH Console',
+    category: 'INTERFAZ DE ESCRITORIO · PROTOTIPO',
+    description:
+      'Desarrollé una interfaz para juegos de PC y un host con WebSocket. Prototipo local; streaming entre equipos pendiente de validación.',
+    tags: ['Electron', 'React / TypeScript', 'WebSocket'],
+    liveUrl: 'https://github.com/alejobringas/arch-console',
+    image: '/assets/projects/arch-console.png',
+    imagePosition: 'center',
+  },
+  {
+    number: '10',
+    name: 'ARCH Void',
+    category: 'EXPERIMENTO WEBGL',
+    description:
+      'Desarrollé una membrana 3D que responde a gestos por webcam, con render y procesamiento de video local. Experimento en navegador.',
+    tags: ['TypeScript', 'Three.js', 'MediaPipe'],
+    liveUrl: 'https://github.com/alejobringas/arch-void',
+    image: '/assets/projects/arch-void.png',
+    imagePosition: 'center',
+  },
 ]
 
 export const socialLinks = [
