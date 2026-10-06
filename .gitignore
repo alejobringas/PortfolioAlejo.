@@ -1,0 +1,41 @@
+# Dependencies and generated files
+node_modules/
+dist/
+build/
+coverage/
+artifacts/
+*.tsbuildinfo
+*.log
+.netlify/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*service-account*.json
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+backups/
+
+# Private development documentation
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+CODEX.md
+PROMPT.md
+PROMPTS.md
+instructions.md
+.ai/
+.agent/
+.agents/
+.codex/
+.claude/
+.gemini/
+_BRAIN/
